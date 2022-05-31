@@ -78,9 +78,9 @@ public class NewTest {
 	    // click on OK to accept with accept()
 	    al.accept();
 	    
-	    WebElement profileBtn = driver.findElement(By.xpath("//*[@id=\"navbarSupportedContent\"]/ul/li[4]/a"));
-	    profileBtn.click();	    
-	    Thread.sleep(4000);
+// 	    WebElement profileBtn = driver.findElement(By.xpath("//*[@id=\"navbarSupportedContent\"]/ul/li[4]/a"));
+// 	    profileBtn.click();	    
+// 	    Thread.sleep(4000);
 	   
 		
 		//WebElement  lastUploaded = driver.findElement(By.xpath("/html/body/form/font/font/font/font/font/section"));
