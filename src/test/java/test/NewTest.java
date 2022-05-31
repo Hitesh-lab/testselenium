@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import java.io.File;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -67,7 +68,8 @@ public class NewTest {
 		String path ="/Devops/images/hiesenberg.jpg";
 		WebElement imageInSubscribe = driver.findElement(By.xpath("//*[@id=\"image\"]"));
 		//js.executeScript("driver.findElement(By.xpath(\"//*[@id=\\\"image\\\"]\")).value="+path);
-		imageInSubscribe.sendKeys("https://github.com/Hitesh-lab/testselenium/blob/master/images/hiesenberg.jpg");
+	  	String path = new File("images\\hiesenberg.jpg").getAbsolutePath();
+		imageInSubscribe.sendKeys(path);
 		Thread.sleep(5000);
 		
 		WebElement subscribeInBio = driver.findElement(By.xpath("/html/body/div[1]/form/div[5]/input[1]"));
