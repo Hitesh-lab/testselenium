@@ -67,7 +67,7 @@ public class NewTest {
 		String path ="/Devops/images/hiesenberg.jpg";
 		WebElement imageInSubscribe = driver.findElement(By.xpath("//*[@id=\"image\"]"));
 		//js.executeScript("driver.findElement(By.xpath(\"//*[@id=\\\"image\\\"]\")).value="+path);
-		imageInSubscribe.sendKeys("C:\\Users\\I526698\\eclipse-workspace\\Devops\\images\\hiesenberg.jpg");
+		imageInSubscribe.sendKeys("images\\hiesenberg.jpg");
 		Thread.sleep(5000);
 		
 		WebElement subscribeInBio = driver.findElement(By.xpath("/html/body/div[1]/form/div[5]/input[1]"));
