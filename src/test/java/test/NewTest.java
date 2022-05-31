@@ -65,7 +65,6 @@ public class NewTest {
 		bioInSubscribe.sendKeys("teacher");
 		interestsInSubscribe.sendKeys("Chemistry");
 		Thread.sleep(5000);
-		String path ="/Devops/images/hiesenberg.jpg";
 		WebElement imageInSubscribe = driver.findElement(By.xpath("//*[@id=\"image\"]"));
 		//js.executeScript("driver.findElement(By.xpath(\"//*[@id=\\\"image\\\"]\")).value="+path);
 	  	String path = new File("images\\hiesenberg.jpg").getAbsolutePath();
