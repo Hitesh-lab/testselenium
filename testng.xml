@@ -7,7 +7,7 @@
     <parameter name="browser" value="localchrome"></parameter>
     <test name="Testing Basics">
         <classes>
-            <class name="com.autoamtiononthego.SeleniumTest"/>
+            <class name="test.java.test.TestNew"/>
         </classes>
     </test> <!-- Test -->
 
