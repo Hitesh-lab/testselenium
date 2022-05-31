@@ -7,7 +7,7 @@
     <parameter name="browser" value="localchrome"></parameter>
     <test name="Testing Basics">
         <classes>
-            <class name="test.java.test.TestNew"/>
+            <class name="test.java.test.NewTest"/>
         </classes>
     </test> <!-- Test -->
 
