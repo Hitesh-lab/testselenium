@@ -43,7 +43,7 @@ public class NewTest {
 		Thread.sleep(5000);
 		WebElement name1 = driver.findElement(By.name("username"));
 		WebElement password1 = driver.findElement(By.name("password"));
-		WebElement login = driver.findElement(By.xpath("/html/body/div[1]/form/div[45]/input"));
+		WebElement login = driver.findElement(By.xpath("/html/body/div[1]/form/div[3]/input"));
 		name1.sendKeys("Tester");
 		password1.sendKeys("123456@");
 		login.click();
